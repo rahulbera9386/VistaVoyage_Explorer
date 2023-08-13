@@ -1,0 +1,58 @@
+.footer{
+/* margin:4rem 6rem; */
+background-color: rgb(0, 0, 0);
+/* color:white; */
+padding:4rem 6rem;
+}
+.upper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+.left h2{
+  font-size: 3rem;
+  color:white;
+}
+.left p{
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.lower{
+  padding-top: 2rem;
+text-align: start;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.divLower{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  
+}
+.divLower a{
+  margin-top: 1rem;
+}
+.colorClass{
+  color:white;
+}
+.right path{
+color: white;
+
+}
+.right svg{
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.right svg:hover{
+transform: scale(1.6);
+}
+.divLower a{
+  transition: all 0.3s ease-in;
+}
+.divLower a:hover{
+ /* margin-bottom: 2px; */
+ border-bottom: 1px solid black;
+}
